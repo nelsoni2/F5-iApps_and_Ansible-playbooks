@@ -18,7 +18,7 @@
       url: https://{{ inventory_hostname }}/mgmt/tm/cloud/templates/iapp/
       validate_certs: no
       user: COF5ADMN01
-      password: :KyNI7o!a]F?mPe
+      password: UHnNHfK_92hXD6{
       return_content: yes
     register: iapps_list
 
