@@ -1,6 +1,6 @@
 ---
 
-- name: Create a vip
+- name: Create a f5vip
   hosts: bigips
   connection: local
   tasks:
