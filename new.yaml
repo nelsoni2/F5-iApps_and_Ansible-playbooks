@@ -5,7 +5,7 @@
   connection: local
   tasks:
 
-      - name: Create Pool
+      - name: Create VIP
         bigip_pool:
             lb_method: least-connections-member
             user: "{{ ansible_user }}"
