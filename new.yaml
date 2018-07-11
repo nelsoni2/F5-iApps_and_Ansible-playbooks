@@ -18,14 +18,3 @@
             validate_certs: false
         delegate_to: localhost
 
-      - name: Create node
-        bigip_node:
-            host: 10.10.10.10
-            name: 10.10.10.10
-            user: "{{ ansible_user }}"
-            password: "{{ ansible_password }}"
-            state: present
-            partition: Common
-            server: "{{ inventory_hostname }}"
-            validate_certs: false
-        delegate_to: localhost 
