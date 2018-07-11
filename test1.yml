@@ -17,8 +17,8 @@
     uri:
       url: https://{{ inventory_hostname }}/mgmt/tm/cloud/templates/iapp/
       validate_certs: no
-      user: COF5ADMN03
-      password: vM<Ye12D-Oh|wNZ
+      user: "{{ ansible_user }}"
+      password: "{{ ansible_password }}"
       return_content: yes
     register: iapps_list
 
