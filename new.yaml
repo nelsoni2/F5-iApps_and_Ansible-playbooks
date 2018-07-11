@@ -14,7 +14,7 @@
             monitors:
               - https
             slow_ramp_time: 120
-            server: "{{ inventory_hostname }}"
+            server: 10.98.14.68
             validate_certs: false
         delegate_to: localhost
 
